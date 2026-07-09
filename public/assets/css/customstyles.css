@@ -1,0 +1,66 @@
+.brand-logo img {
+    width: 200px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+#navbar a {
+    /* border-top: 1px solid #777; */
+    color: black;
+    display: block;
+    padding: 0.50rem;
+    transition: background-color 0.3s ease;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+}
+
+#navbar {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+/**
+ * CSS class for setting the height of an image element with the ID.
+ * 
+ * The #post_image class sets the height of an image element with the ID "post_image" to 200 pixels.
+ */
+#post_image {
+    height: 200px;
+}
+
+/**
+ * CSS class for styling the footer section of a card element.
+ * 
+ * The #card-footer class sets the height of the footer to 60 pixels
+ * and applies a light gray background color to it.
+ */
+#card-footer {
+    height: 60px;
+    background-color: #eee;
+}
+
+
+/* Datatable input type search and show entries */
+input[type=search]:not(.browser-default) {
+    width: auto;
+    height: auto;
+}
+
+#load_table_length, #Load_table_length select{
+    display: block;
+    height: 2rem;
+}
+#Load_table_length select{
+    width: 200%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .upload_doc{
+        margin-top: -140px;   
+    }
+}
